@@ -38,9 +38,18 @@ Linear Regression, K-Nearest Neighbors Regressor, Support Vector Regression, Dec
 
 **The dataset is not included** because its redistribution terms have not been established. Use the original authorised source and check its licence before sharing it.
 
-## Academic context and attribution
+## Academic context and team
 
-This was completed as a **college group project associated with an academic internship**. The notebook represents collaborative work; it should not be interpreted as an individual project completed solely by the repository owner. Add the full team roster, mentor/institution details, and individual contributions here before presenting the repository as a final public record.
+Completed as part of the **UNP ML Academic Internship**. This was a collaborative academic project completed by **Team 3**.
+
+### Team 3
+
+- Akula Siri
+- K Jayadeva Satyavamsi
+- P Harshit
+- Peruri Ramya Sree
+
+The work is presented as a team project. Individual task ownership is not itemised here; the repository should not be interpreted as work completed independently by any one team member.
 
 ## Reproducibility notes
 
