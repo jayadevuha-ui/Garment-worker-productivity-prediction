@@ -1,11 +1,12 @@
 # Garment Worker Productivity Prediction
 
-An academic group project exploring operational factors associated with productivity in garment manufacturing and applying regression models to estimate actual productivity.
+A Team 3 project completed as part of the UNP ML Academic Internship. This project explores operational factors associated with productivity in garment manufacturing and applies regression models to estimate actual productivity.
 
 ## Project overview
 
-The notebook covers:
-- Data quality checks and missing-value analysis
+The notebook contains the end-to-end analysis and modelling workflow:
+
+- Data inspection, quality checks, and missing-value analysis
 - Cleaning inconsistent categorical values
 - Exploratory data analysis and visualisation
 - Productivity patterns across departments, quarters, teams, and workdays
@@ -22,37 +23,34 @@ Linear Regression, K-Nearest Neighbors Regressor, Support Vector Regression, Dec
 
 | File | Description |
 | --- | --- |
-| `Garment-worker-productivity-prediction.ipynb` | Main analysis and modelling notebook |
+| `Garment-worker-productivity-prediction.ipynb` | Main analysis and modelling notebook, including saved cell outputs |
+| `garments_worker_productivity.csv` | Dataset used by the notebook |
 | `requirements.txt` | Python dependencies |
+| `GWP_Team3_Presentation.pptx` | Project presentation |
 
 ## Getting started
 
 1. Clone this repository.
-2. Install dependencies:
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Obtain the original project CSV, named `garments_worker_productivity.csv`, from the course/internship source.
-4. Place it in the repository root or in a folder named `data/`.
-5. Open the notebook in Jupyter or Google Colab and run it from top to bottom.
+3. Open `Garment-worker-productivity-prediction.ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
+4. Run the notebook from top to bottom if you want to reproduce the analysis. Existing saved outputs are included for reference.
 
-**The dataset is not included** because its redistribution terms have not been established. Use the original authorised source and check its licence before sharing it.
+The notebook expects the dataset file `garments_worker_productivity.csv` in the repository root.
 
-## Academic context and team
+## Team
 
-Completed as part of the **UNP ML Academic Internship**. This was a collaborative academic project completed by **Team 3**.
-
-### Team 3
+This was a collaborative academic project completed by Team 3:
 
 - Akula Siri
 - K Jayadeva Satyavamsi
 - P Harshit
 - Peruri Ramya Sree
 
-The work is presented as a team project. Individual task ownership is not itemised here; the repository should not be interpreted as work completed independently by any one team member.
+## Notes
 
-## Reproducibility notes
-
-- The notebook's saved cell outputs have been cleared to keep the repository lightweight and encourage fresh execution.
-- Model metrics may vary with library versions and runtime environments.
-- The analysis is an educational exercise; findings should be interpreted in the context and limitations of the source dataset.
+- The notebook is committed with its saved outputs; the repository does not automatically execute notebooks on every push.
+- Model results may vary with library versions and runtime environments.
+- This is an educational analysis. Interpret findings within the limitations of the source dataset.
