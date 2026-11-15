@@ -26,7 +26,6 @@ Linear Regression, K-Nearest Neighbors Regressor, Support Vector Regression, Dec
 | `Garment-worker-productivity-prediction.ipynb` | Main analysis and modelling notebook, including saved cell outputs |
 | `garments_worker_productivity.csv` | Dataset used by the notebook |
 | `requirements.txt` | Python dependencies |
-| `GWP_Team3_Presentation.pptx` | Project presentation |
 
 ## Getting started
 
